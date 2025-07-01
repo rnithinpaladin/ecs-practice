@@ -1,0 +1,9 @@
+vpc_name         = "eks"
+vpc_cidr         = "10.0.0.0/16"
+cluster_name     = "eks-cluster-1"
+environment      = "dev"
+desired_capacity = 1
+min_capacity     = 1
+max_capacity     = 3
+ecr_backend_repository_name = "demo-flask-backend"
+ecr_frontend_repository_name = "demo-flask-frontend"
