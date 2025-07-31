@@ -1,0 +1,10 @@
+name: Main Workflow
+
+on: 
+  push:
+    branches: [main]
+jobs:
+  call-resubale:
+    uses: ./.github/workflows/reusable.yaml
+    with: 
+      node_version: '18'
